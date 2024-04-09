@@ -1,0 +1,43 @@
+{
+    "$schema": "http://json-schema.org/draft-06/schema#",
+    "$ref": "#/definitions/Welcome2",
+    "definitions": {
+        "Welcome2": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+                "batchId": {
+                    "type": "integer"
+                },
+                "batchName": {
+                    "type": "string"
+                },
+                "batchDescription": {
+                    "type": "null"
+                },
+                "batchStatus": {
+                    "type": "string"
+                },
+                "batchNoOfClasses": {
+                    "type": "integer"
+                },
+                "programId": {
+                    "type": "integer"
+                },
+                "programName": {
+                    "type": "string"
+                }
+            },
+            "required": [
+                "batchDescription",
+                "batchId",
+                "batchName",
+                "batchNoOfClasses",
+                "batchStatus",
+                "programId",
+                "programName"
+            ],
+            "title": "Welcome2"
+        }
+    }
+}

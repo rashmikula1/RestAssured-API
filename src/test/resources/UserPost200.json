@@ -1,0 +1,15 @@
+{
+  "userComments": "string",
+  "userEduPg": "string",
+  "userEduUg": "string",
+  "userFirstName": "string",
+  "userId": "string",
+  "userLastName": "string",
+  "userLinkedinUrl": "string",
+  "userLocation": "string",
+  "userLoginEmail": "string",
+  "userMiddleName": "string",
+  "userPhoneNumber": 0,
+  "userTimeZone": "string",
+  "userVisaStatus": "string"
+}

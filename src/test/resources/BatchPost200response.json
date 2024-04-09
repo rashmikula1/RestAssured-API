@@ -1,0 +1,46 @@
+{
+    "$schema": "http://json-schema.org/draft-06/schema#",
+    "type": "array",
+    "items": {
+        "$ref": "#/definitions/Welcome8Element"
+    },
+    "definitions": {
+        "Welcome8Element": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+                "batchId": {
+                    "type": "integer"
+                },
+                "batchName": {
+                    "type": "string"
+                },
+                "batchDescription": {
+                    "type": "null"
+                },
+                "batchStatus": {
+                    "type": "string"
+                },
+                "batchNoOfClasses": {
+                    "type": "integer"
+                },
+                "programId": {
+                    "type": "integer"
+                },
+                "programName": {
+                    "type": "string"
+                }
+            },
+            "required": [
+                "batchDescription",
+                "batchId",
+                "batchName",
+                "batchNoOfClasses",
+                "batchStatus",
+                "programId",
+                "programName"
+            ],
+            "title": "Welcome8Element"
+        }
+    }
+}
