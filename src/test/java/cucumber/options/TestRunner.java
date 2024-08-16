@@ -11,7 +11,7 @@ import io.cucumber.junit.Cucumber;
 		plugin = {"pretty", "html:target/Cucumber.html",
 				"json:target/jsonReports/cucumber.json",
 				"junit:target/cucumber-reports/Cucumber.xml",
-				//"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:",
+				"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:",
 				//"io.qameta.allure.cucumber7jvm.AllureCucumber7Jvm",
 				},//reporting purpose
 		monochrome=false,  //console output color
